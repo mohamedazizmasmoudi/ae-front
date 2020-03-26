@@ -4,9 +4,9 @@ import PrivateMessaging from '../PrivateMessaging';
 import axios from 'axios';
 import io from 'socket.io-client';
 
-const SOCKET_URL = "https://ae-app-api.herokuapp.com";
+const SOCKET_URL = "localhoost:8080";
 const socket = io(SOCKET_URL);
-const API_URL = 'https://ae-app-api.herokuapp.com/api';
+const API_URL = 'localhoost:8080/api';
 
 export default class PrivateMessagingContainer extends Component {
   constructor(props) {

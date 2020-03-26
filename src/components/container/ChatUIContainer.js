@@ -12,8 +12,8 @@ import Moment from 'moment';
 import PrivateMessagingContainer from './PrivateMessageContainer';
 
 
-const API_URL = "https://ae-app-api.herokuapp.com/api";
-const SOCKET_URL = "https://ae-app-api.herokuapp.com";
+const API_URL = "localhost:8080/api";
+const SOCKET_URL = "localhoost:8080";
 const socket = io(SOCKET_URL);
 
 class ChatUIContainer extends Component {
