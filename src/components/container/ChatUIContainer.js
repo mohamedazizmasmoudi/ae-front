@@ -13,7 +13,7 @@ import PrivateMessagingContainer from './PrivateMessageContainer';
 
 
 const API_URL = "https://ae-app-api.herokuapp.com/api";
-const SOCKET_URL = "https://ae-app-api.herokuapp.com/ ";
+const SOCKET_URL = "https://ae-app-api.herokuapp.com";
 const socket = io(SOCKET_URL);
 
 class ChatUIContainer extends Component {
